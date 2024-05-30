@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-28T22:01:20 EDT" name="Default suite" finished-at="2024-05-28T22:01:20 EDT" duration-ms="74">
+    <groups>
+    </groups>
+    <test started-at="2024-05-28T22:01:20 EDT" name="Default test" finished-at="2024-05-28T22:01:20 EDT" duration-ms="74">
+      <class name="basics.Parameter">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:basics.Parameter@2c35e847]" started-at="2024-05-28T22:01:20 EDT" name="beforesuite" finished-at="2024-05-28T22:01:20 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:basics.Parameter@2c35e847]" started-at="2024-05-28T22:01:20 EDT" name="beforetest" finished-at="2024-05-28T22:01:20 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:basics.Parameter@2c35e847]" started-at="2024-05-28T22:01:20 EDT" name="beforeclass" finished-at="2024-05-28T22:01:20 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="mymethodone(java.lang.String,java.lang.String)[pri:0, instance:basics.Parameter@2c35e847]" started-at="2024-05-28T22:01:20 EDT" name="mymethodone" finished-at="2024-05-28T22:01:20 EDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Test on method mymethodone but has not been marked @Optional or defined
+in /private/var/folders/gz/f1fz50ms0ms4x81w__tsdgqm0000gn/T/testng-eclipse-835122812/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Test on method mymethodone but has not been marked @Optional or defined
+in /private/var/folders/gz/f1fz50ms0ms4x81w__tsdgqm0000gn/T/testng-eclipse-835122812/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mymethodone -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:basics.Parameter@2c35e847]" started-at="2024-05-28T22:01:20 EDT" name="beforemethod" finished-at="2024-05-28T22:01:20 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="mymethodtwo()[pri:0, instance:basics.Parameter@2c35e847]" started-at="2024-05-28T22:01:20 EDT" name="mymethodtwo" finished-at="2024-05-28T22:01:20 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mymethodtwo -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:basics.Parameter@2c35e847]" started-at="2024-05-28T22:01:20 EDT" name="aftermethod" finished-at="2024-05-28T22:01:20 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:basics.Parameter@2c35e847]" started-at="2024-05-28T22:01:20 EDT" name="afterclass" finished-at="2024-05-28T22:01:20 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:basics.Parameter@2c35e847]" started-at="2024-05-28T22:01:20 EDT" name="aftertest" finished-at="2024-05-28T22:01:20 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="aftrsuite()[pri:0, instance:basics.Parameter@2c35e847]" started-at="2024-05-28T22:01:20 EDT" name="aftrsuite" finished-at="2024-05-28T22:01:20 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftrsuite -->
+      </class> <!-- basics.Parameter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
