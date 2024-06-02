@@ -1,6 +1,7 @@
 package hw7Abstraction;
 
 public abstract class MedicalSchool {
+	
     // Abstract method
     public abstract void anatomyLab();
 

@@ -1,6 +1,7 @@
 package hw7Abstraction;
 
 public abstract class NursingSchool {
+	
     // Abstract method
     public abstract void hygiene();
 

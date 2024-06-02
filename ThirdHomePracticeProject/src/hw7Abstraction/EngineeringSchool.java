@@ -1,6 +1,7 @@
 package hw7Abstraction;
 
 public abstract class EngineeringSchool {
+	
     // Abstract method
     public abstract void mechanicalLab();
 

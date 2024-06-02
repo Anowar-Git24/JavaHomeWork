@@ -1,6 +1,7 @@
 package hw08Encapsulation;
 
 public class Employee {
+	
     private String name;
     private int age;
     private char sex;

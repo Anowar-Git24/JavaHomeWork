@@ -1,10 +1,13 @@
 package hw08Encapsulation;
 
 public class EmployeeTest {
+	
     public static void main(String[] args) {
+    	
         Employee emp = new Employee();
-        emp.setName("John Doe");
-        emp.setAge(30);
+        
+        emp.setName("Md Hossain");
+        emp.setAge(37);
         emp.setSex('M');
         emp.setCitizen("USA");
 
