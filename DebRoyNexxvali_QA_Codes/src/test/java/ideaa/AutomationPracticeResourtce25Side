@@ -1,0 +1,79 @@
+List of the top 25 Best Demo Websites for Automation Testing   
+These websites offer a comprehensive array of scenarios, environments, and challenges that allow testers to refine their automation skills and enhance their problem-solving abilities, ultimately contributing to their expertise in software testing.
+
+1) SauceDemo.com (web UI) 
+SauceDemo.com is a web UI demo platform that provides testers with a hands-on environment to assess web application interactions. From user interface elements to navigation flows, this website enables testers to simulate user journeys and validate the responsiveness and functionality of web applications.
+
+2) Ultimateqa.com/automation (web UI) 
+The ultimateqa.com/automation website is a dedicated space for honing web UI automation skills. With a focus on practical exercises and tutorials, testers can immerse themselves in various automation challenges, ranging from fundamental interactions to more complex user scenarios. 
+
+3) Sample E-commerce mobile app (Android, iOS) 
+Testing mobile applications is a crucial aspect of Automation Testing. Sample e-commerce mobile apps for Android and iOS platforms allow testers to evaluate UI interactions, user flows, and responsiveness across different mobile devices. 
+
+4) Cypress Real World App (web UI) 
+Cypress Real World App offers a practical playground for testers using the Cypress framework. This platform allows testers to interact with real-world web UI scenarios, validating the accuracy of user interactions, form submissions, and other critical functionalities. 
+
+5) GitHub Users Search (web UI, API) 
+GitHub Users Search is a dual-purpose demo, engaging testers in both web UI and API testing. Testers can evaluate the front-end interface while practising API interactions, showcasing the versatility of Automation Testing skills. 
+
+6) Contact List Web and API (web UI, API) 
+Contact List Web and API provide testers with a comprehensive testing ground for web UI and API interactions. Testers can ensure seamless data interactions between the front-end and back-end by scrutinising user interface elements and engaging with API endpoints. 
+
+7) RealWorld demo apps (web, React, Angular, Vue, Elm) 
+The RealWorld demo apps encompass a range of technologies, including web, React, Angular, Vue, Elm, and more. These demos showcase the adaptability of Automation Testing, allowing testers to explore automation techniques across various frameworks and technologies. 
+
+8) Telerik Multi Language Demo Site (web UI) 
+Telerik Multi-Language Demo Site focuses on web UI testing, allowing testers to navigate a multi-language interface. Testers can ensure that web applications seamlessly support diverse language preferences by engaging with language switches. 
+
+9) Webdriveruniversity.com (web UI) 
+Webdriveruniversity.com serves as an interactive learning platform for Automation Testing. With tutorials, coding challenges, and real-time feedback, testers can practice automation concepts in a controlled environment – reinforcing their skills and knowledge. 
+
+10) ACME Demo Banking (web UI) 
+ACME Demo Banking provides a simulated banking environment for web UI testing. Testers can assess user authentication, transaction flows, and security mechanisms, thus ensuring the flawless functionality of critical banking operations. 
+
+11) Dave Haeffner’s Practice Site (web UI) 
+Dave Haeffner's Practice Site offers real-world web UI testing challenges. Testers navigate user interfaces, validate form submissions, and interact with various elements to ensure accurate and functional web applications. 
+
+12) ParaBank Bank Site (web, API) 
+ParaBank Bank Site encompasses web and API testing, allowing testers to evaluate interactions across different layers. This demo offers a comprehensive testing environment for Automation Testers, from web UI navigation to API requests. 
+
+13) Restful-Booker (API) 
+Restful-Booker focuses solely on API testing, offering testers a range of endpoints to interact with. By evaluating API requests, responses, and data validation, testers can ensure seamless data flow within the application. 
+
+14) JSONPlaceholder (API) 
+JSONPlaceholder provides a suite of Restful APIs for testing, enabling testers to practise a variety of API interactions. Testers can refine their API testing skills by exploring endpoints, data manipulation, and data retrieval. 
+
+15) HTTPBin.org (API) 
+HTTPBin.org offers a range of HTTP request and response scenarios for API testing. Testers can engage with various request types, headers, and parameters, validating the accuracy of data exchanges between applications. 
+
+Unleash your cybersecurity prowess – join our Kali Linux Fundamentals Course now! 
+
+16) PetStore (API) 
+PetStore is a dedicated API testing demo that focuses on interactions related to pet data. Testers can scrutinise API endpoints, perform CRUD operations, and ensure data integrity and accuracy within the application. 
+
+17) E-commerce Clothing Site (web) 
+E-commerce Clothing Site allows testers to explore web UI interactions within an e-commerce context. Testers can ensure seamless user journeys from product browsing to cart management and checkout processes. 
+
+18) Demoqa (web) 
+Demoqa is a web UI demo platform that covers a range of testing scenarios, from forms to interactions and elements. By engaging with diverse features, testers can validate the accuracy and responsiveness of web applications. 
+
+19) Compendiumdev.co.uk (web) 
+Compendiumdev.co.uk provides a variety of web UI testing challenges, enabling testers to practice interactions, navigation, and form submissions. By engaging with real-world scenarios, testers can ensure the accuracy of user interactions. 
+
+20) React shopping cart (web UI) 
+The React shopping cart demo offers a focused testing environment for web UI interactions. Testers can navigate a shopping cart interface, validate product additions, and assess cart functionality. 
+
+21) Swag Labs (web UI) 
+Swag Labs is a demo e-commerce platform designed specifically for Automation Testing. Testers can navigate through product listings, shopping cart interactions, and checkout processes, ensuring the smooth functioning of e-commerce workflows. 
+
+22) The Internet Heroku App (web UI) 
+The Internet Heroku App provides a variety of testing scenarios, from basic elements and interactions to more complex challenges. Testers can practice web UI automation across different pages and components, validating user journeys and functionality. 
+
+23) Bookstore Application (web UI, API) 
+The Bookstore Application demo offers both web UI and API testing opportunities. Testers can explore book catalogue browsing, cart management, and checkout processes on the front end while engaging with API interactions on the back end. 
+
+24) OrangeHRM (web UI) 
+OrangeHRM is a demo platform for human resource management systems. Testers can navigate through employee profiles, leave requests, and other HR functionalities, ensuring the accuracy and efficiency of HR-related processes. 
+
+25) Automation Practice (web UI) 
+Automation Practice is a comprehensive Demo Website that covers a wide range of testing scenarios. Testers can practice interactions with various elements, forms, and dynamic

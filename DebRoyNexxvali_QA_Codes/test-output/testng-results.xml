@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-08T13:33:48 EDT" name="Default suite" finished-at="2024-06-08T13:34:23 EDT" duration-ms="34647">
+    <groups>
+    </groups>
+    <test started-at="2024-06-08T13:33:48 EDT" name="Default test" finished-at="2024-06-08T13:34:23 EDT" duration-ms="34647">
+      <class name="TestNGExamples.beforeTest_vs_beforeMethod">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNGExamples.beforeTest_vs_beforeMethod@b9b00e0]" started-at="2024-06-08T13:33:48 EDT" name="setup" finished-at="2024-06-08T13:34:14 EDT" duration-ms="26203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckBox()[pri:0, instance:TestNGExamples.beforeTest_vs_beforeMethod@b9b00e0]" started-at="2024-06-08T13:34:14 EDT" name="testCheckBox" finished-at="2024-06-08T13:34:15 EDT" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBox -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:TestNGExamples.beforeTest_vs_beforeMethod@b9b00e0]" started-at="2024-06-08T13:34:15 EDT" name="tear_down" finished-at="2024-06-08T13:34:15 EDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNGExamples.beforeTest_vs_beforeMethod@b9b00e0]" started-at="2024-06-08T13:34:15 EDT" name="setup" finished-at="2024-06-08T13:34:21 EDT" duration-ms="6171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckBox2()[pri:0, instance:TestNGExamples.beforeTest_vs_beforeMethod@b9b00e0]" started-at="2024-06-08T13:34:21 EDT" name="testCheckBox2" finished-at="2024-06-08T13:34:22 EDT" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBox2 -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:TestNGExamples.beforeTest_vs_beforeMethod@b9b00e0]" started-at="2024-06-08T13:34:22 EDT" name="tear_down" finished-at="2024-06-08T13:34:23 EDT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- TestNGExamples.beforeTest_vs_beforeMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
