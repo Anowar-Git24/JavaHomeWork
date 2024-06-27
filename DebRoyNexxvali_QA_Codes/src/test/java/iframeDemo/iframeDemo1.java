@@ -7,9 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class iframeDemo1 {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ddroy\\OneDrive\\Desktop\\Drivers\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\ddroy\\OneDrive\\Desktop\\Drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get("C:\\Users\\ddroy\\IdeaProjects\\Nexxvali_QA_Codes\\src\\test\\java\\iframeDemo\\iframe.html");
+       // driver.get("C:\\Users\\ddroy\\IdeaProjects\\Nexxvali_QA_Codes\\src\\test\\java\\iframeDemo\\iframe.html");
         driver.manage().window().maximize();
 
         int numOfiframes = driver.findElements(By.tagName("iframe")).size();

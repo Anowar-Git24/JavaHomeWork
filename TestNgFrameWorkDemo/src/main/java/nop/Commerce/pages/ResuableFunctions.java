@@ -1,8 +1,10 @@
-package basepage;
+package nop.Commerce.pages;
 
 import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +18,7 @@ public class ResuableFunctions {
 	private static WebDriver driver;
 	private WebDriverWait wait;
 	
-	public ResuableFunctions(WebDriver driver) {
+	public ResuableFunctions() {
 		ResuableFunctions.driver=driver;
 		wait=new WebDriverWait(driver, Duration.ofSeconds(20));
 	}
@@ -61,6 +63,10 @@ public class ResuableFunctions {
 		TakesScreenshot takeScreenShot = (TakesScreenshot) driver;
 		File srcFile = takeScreenShot.getScreenshotAs(OutputType.FILE);
 		File destFile = new File(filepath);
-		FileUtils.copyFile(srcFile, destFile);
+		try {
+			FileUtils.copyFile(srcFile, destFile);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }

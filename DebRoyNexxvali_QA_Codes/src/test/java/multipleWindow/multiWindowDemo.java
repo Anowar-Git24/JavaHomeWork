@@ -9,7 +9,7 @@ import java.util.Set;
 public class multiWindowDemo {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ddroy\\OneDrive\\Desktop\\Drivers\\chromedriver.exe");
+       // System.setProperty("webdriver.chrome.driver", "C:\\Users\\ddroy\\OneDrive\\Desktop\\Drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://seleniumpractise.blogspot.in/2017/07/multiple-window-examples.html");
         driver.manage().window().maximize();

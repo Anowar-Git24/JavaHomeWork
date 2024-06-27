@@ -8,8 +8,8 @@ public class FirstTestSm {
 	
 	WebDriver driver;
 	public void launchBrowser() {
-	System.setProperty("webdriver.chrome.driver",
-			"/Users/mdhossain/Downloads/chromedriver-mac-x64 4/chromedriver");
+	//System.setProperty("webdriver.chrome.driver",
+		//	"/Users/mdhossain/Downloads/chromedriver-mac-x64 4/chromedriver");
 	 System.setProperty("webdriver.http.factory", "jdk-http-client");
 	driver = new ChromeDriver();
 	driver.get("https://www.amazon.com/");

@@ -3,31 +3,41 @@ package pom;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage  {
+import nop.Commerce.pages.ResuableFunctions;
 
-    @FindBy(id = "username")
-    private WebElement usernameField;
+public class LoginPage {
 
-    @FindBy(id = "password")
-    private WebElement passwordField;
-
-    @FindBy(id = "login")
-    private WebElement loginButton;
-
-    public LoginPage(WebDriver driver) {
-        super(driver);
-    }
-
-    public void enterUsername(String username) {
-        usernameField.sendKeys(username);
-    }
-
-    public void enterPassword(String password) {
-        passwordField.sendKeys(password);
-    }
-
-    public void clickLogin() {
-        loginButton.click();
-    }
+	WebDriver driver;
+	ResuableFunctions reusableFunctions;
+	
+	public LoginPage(WebDriver driver) {
+		this.driver=driver;
+		this.reusableFunctions=new ResuableFunctions();
+		PageFactory.initElements(driver, this);
+	}
+	
+	@FindBy(id="user")
+	WebElement username;
+	
+	@FindBy(id="pass")
+	WebElement password;
+	
+	@FindBy(name="btnSubmit")
+	WebElement login;
+	
+	public void enterUsername(String uname) {
+		((Object) reusableFunctions).setText(username, uname);
+	}
+	
+	public void enterPassword(String pwd) {
+		reusableFunctions.setText(password, pwd);
+	}
+	
+	public void clickLogin() {
+		((Object) reusableFunctions).click(login);
+	}
+	
+	
 }

@@ -1,0 +1,16 @@
+2024-06-26 23:32:14.391 [main] INFO  reusables.testingBase - Setting up Browser !!!
+2024-06-26 23:32:20.889 [main] INFO  reusables.testingBase - Opening Browser !!!
+2024-06-26 23:32:23.002 [main] INFO  reusables.testingBase - Test Setup Done !!!
+2024-06-26 23:32:23.035 [main] INFO  reusables.testingBase - Closing Browser !!!
+2024-06-26 23:32:23.128 [main] INFO  reusables.testingBase - Test Completed !!!
+2024-06-27 00:27:04.895 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting gender: Male
+2024-06-27 00:27:06.259 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering first name: MD
+2024-06-27 00:27:07.421 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering last name: Hossain
+2024-06-27 00:27:07.885 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting date of birth: 1/June/1987
+2024-06-27 00:27:09.053 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering email: mahossain3094@gmail.com
+2024-06-27 00:27:09.276 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering password
+2024-06-27 00:27:09.613 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering confirm password
+2024-06-27 00:27:09.714 [main] INFO  pagesOfNopCommerce.RegisterPage - Clicking register button
+2024-06-27 00:27:14.572 [main] INFO  pagesOfNopCommerce.LoginPage - Entering email: mahossain3094@gmail.com
+2024-06-27 00:27:14.834 [main] INFO  pagesOfNopCommerce.LoginPage - Entering password
+2024-06-27 00:27:15.260 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking login button

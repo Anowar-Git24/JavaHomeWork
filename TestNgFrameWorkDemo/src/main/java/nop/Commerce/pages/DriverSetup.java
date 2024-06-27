@@ -1,5 +1,5 @@
-package basepage;
-	
+
+package nop.Commerce.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +9,7 @@ public class DriverSetup {
 
 	private static WebDriver driver;
 	
-	//invoke chrome browser
+	//invoke Chrome browser
 	public static WebDriver invokeBrowser()  {
 		
 			ChromeOptions options = new ChromeOptions();
