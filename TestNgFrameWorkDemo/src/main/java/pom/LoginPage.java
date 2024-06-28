@@ -14,7 +14,7 @@ public class LoginPage {
 	
 	public LoginPage(WebDriver driver) {
 		this.driver=driver;
-		this.reusableFunctions=new ResuableFunctions();
+		this.reusableFunctions=new ResuableFunctions(driver);
 		PageFactory.initElements(driver, this);
 	}
 	

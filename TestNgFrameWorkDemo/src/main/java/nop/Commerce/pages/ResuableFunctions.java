@@ -18,7 +18,7 @@ public class ResuableFunctions {
 	private static WebDriver driver;
 	private WebDriverWait wait;
 	
-	public ResuableFunctions() {
+	public ResuableFunctions(WebDriver driver2) {
 		ResuableFunctions.driver=driver;
 		wait=new WebDriverWait(driver, Duration.ofSeconds(20));
 	}
