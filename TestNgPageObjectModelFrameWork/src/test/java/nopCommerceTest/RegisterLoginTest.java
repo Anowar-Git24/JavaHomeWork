@@ -17,8 +17,7 @@ public class RegisterLoginTest {
 
     @BeforeMethod
     public void setUp() {
-        // Update the path to the chromedriver executable as needed
-       // System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+       
         driver = new ChromeDriver();
         driver.get("https://demo.nopcommerce.com/register?returnUrl=%2F");
         registerPage = new RegisterPage(driver);
