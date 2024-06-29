@@ -14,7 +14,7 @@ public class LoginPage extends BasePage {
 
     private final By emailTextBoxLocator = By.id("email");
     private final By passwordTextBoxLocator = By.id("pass");
-    private final By loginButtonLocator = By.xpath("//input[(@cname='login')]");
+    private final By loginButtonLocator = By.xpath("//button[@name='login']");
 
     public LoginPage(WebDriver driver) {
         super(driver);

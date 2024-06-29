@@ -3,12 +3,13 @@
 <suite name="Suite1" verbose="2" >
   <test name="Test1" >
     <parameter name="browser" value="chrome" />
-    <parameter name="url" value="https://www.facebook.com" />
+    <parameter name="url" value="https://www.facebook.com/" />
     <classes>
       
       <class name="https://www.facebook.com/"/>
-      <class name="test.ScreenshotLoginTest"/>
-     
+      <class name="facebookpagelogintest.LoginTest"/>
+      <class name="facebookpage.HomePage"/>
+      
     </classes>
   </test>
 </suite>
