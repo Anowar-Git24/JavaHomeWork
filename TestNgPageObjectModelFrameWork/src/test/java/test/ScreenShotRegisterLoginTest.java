@@ -10,7 +10,7 @@ import pagesOfNopCommerce.LoginPage;
 import pagesOfNopCommerce.RegisterPage;
 import utils.ScreenshotUtil;
 
-public class RegisterLoginTest {
+public class ScreenShotRegisterLoginTest {
 
     private WebDriver driver;
     private RegisterPage registerPage;
@@ -50,7 +50,7 @@ public class RegisterLoginTest {
         loginPage.enterPassword("password123");
         screenshotUtil.takeScreenshot("/Users/mdhossain/Desktop/Screenshots/login_before_click.png");
         loginPage.clickLoginButton();
-        screenshotUtil.takeScreenshot("/Users/mdhossain/Desktop/Screenshots/login_after_click.png");
+        screenshotUtil.takeScreenshot("/Users/mdhossain/git/JavaHomeWork/TestNgPageObjectModelFrameWork/target");
     }
 
     @AfterMethod
