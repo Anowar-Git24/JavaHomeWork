@@ -50,7 +50,7 @@ public class ScreenShotRegisterLoginTest {
         loginPage.enterPassword("password123");
         screenshotUtil.takeScreenshot("/Users/mdhossain/Desktop/Screenshots/login_before_click.png");
         loginPage.clickLoginButton();
-        screenshotUtil.takeScreenshot("/Users/mdhossain/git/JavaHomeWork/TestNgPageObjectModelFrameWork/target");
+        screenshotUtil.takeScreenshot("/Users/mdhossain/Desktop/Screenshots/login_after_click.png");
     }
 
     @AfterMethod

@@ -8,7 +8,7 @@
     <classes>
       <class name="nopCommerceTest.RegisterLoginTest" />
       <class name="pagesOfNopCommerce.HomePage"/>
-      <class name="test.RegisterLoginTest"/>
+      <class name="test.ScreenShotRegisterLoginTest"/>
       <class name="excelutility.ExcelFrameworkTest"/>
     </classes>
   </test>
