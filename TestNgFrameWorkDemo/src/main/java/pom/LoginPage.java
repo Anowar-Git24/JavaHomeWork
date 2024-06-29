@@ -28,7 +28,7 @@ public class LoginPage {
 	WebElement login;
 	
 	public void enterUsername(String uname) {
-		((Object) reusableFunctions).setText(username, uname);
+		 reusableFunctions.setText(username, uname);
 	}
 	
 	public void enterPassword(String pwd) {
@@ -36,7 +36,7 @@ public class LoginPage {
 	}
 	
 	public void clickLogin() {
-		((Object) reusableFunctions).click(login);
+		 reusableFunctions.click(login);
 	}
 	
 	
