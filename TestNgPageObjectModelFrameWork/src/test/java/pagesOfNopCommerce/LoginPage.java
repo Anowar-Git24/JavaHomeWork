@@ -14,6 +14,7 @@ public class LoginPage extends BasePage {
 
     private final By emailTextBoxLocator = By.id("Email");
     private final By passwordTextBoxLocator = By.id("Password");
+    private final By remembermeButtonLocator = By.xpath("//*[@id=\"RememberMe\"]");
     private final By loginButtonLocator = By.xpath("//button[contains(@class, 'login-button')]");
 
     public LoginPage(WebDriver driver) {
@@ -30,6 +31,12 @@ public class LoginPage extends BasePage {
         WebElement passwordTextBox = driver.findElement(passwordTextBoxLocator);
         logger.info("Entering password");
         sendKeys(passwordTextBox, password);
+    }
+
+    public void clickRememberMe() {
+        WebElement rememberMeButton = driver.findElement(remembermeButtonLocator);
+        logger.info("Clicking remember me button");
+        click(rememberMeButton);
     }
 
     public void clickLoginButton() {

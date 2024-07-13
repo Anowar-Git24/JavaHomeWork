@@ -135,3 +135,107 @@
 2024-06-28 23:44:44.831 [main] INFO  pagesOfNopCommerce.LoginPage - Entering email: mahossain3094@gmail.com
 2024-06-28 23:44:44.945 [main] INFO  pagesOfNopCommerce.LoginPage - Entering password
 2024-06-28 23:44:45.482 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking login button
+2024-07-05 15:27:08.251 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting gender: Male
+2024-07-05 15:27:09.420 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering first name: MD
+2024-07-05 15:27:10.609 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering last name: Hossain
+2024-07-05 15:27:11.106 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting date of birth: 1/June/1987
+2024-07-05 15:27:12.239 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering email: mahossain3094@gmail.com
+2024-07-05 15:27:12.328 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering password
+2024-07-05 15:27:12.725 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering confirm password
+2024-07-05 15:27:12.835 [main] INFO  pagesOfNopCommerce.RegisterPage - Clicking register button
+2024-07-05 15:27:17.210 [main] INFO  pagesOfNopCommerce.LoginPage - Entering email: mahossain3094@gmail.com
+2024-07-05 15:27:17.502 [main] INFO  pagesOfNopCommerce.LoginPage - Entering password
+2024-07-05 15:27:17.901 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking login button
+2024-07-05 15:29:46.263 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting gender: Male
+2024-07-05 15:29:47.471 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering first name: MD
+2024-07-05 15:29:48.631 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering last name: Hossain
+2024-07-05 15:29:49.063 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting date of birth: 1/June/1987
+2024-07-05 15:29:50.147 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering email: mahossain3094@gmail.com
+2024-07-05 15:29:50.227 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering password
+2024-07-05 15:29:50.721 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering confirm password
+2024-07-05 15:29:51.086 [main] INFO  pagesOfNopCommerce.RegisterPage - Clicking register button
+2024-07-05 15:29:56.303 [main] INFO  pagesOfNopCommerce.LoginPage - Entering email: mahossain3094@gmail.com
+2024-07-05 15:29:56.523 [main] INFO  pagesOfNopCommerce.LoginPage - Entering password
+2024-07-05 15:29:57.284 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking login button
+2024-07-05 15:56:35.967 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting gender: Male
+2024-07-05 15:56:37.261 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering first name: MD
+2024-07-05 15:56:38.255 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering last name: Hossain
+2024-07-05 15:56:38.802 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting date of birth: 1/June/1987
+2024-07-05 15:56:39.989 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering email: mahossain3094@gmail.com
+2024-07-05 15:56:40.083 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering password
+2024-07-05 15:56:40.505 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering confirm password
+2024-07-05 15:56:40.853 [main] INFO  pagesOfNopCommerce.RegisterPage - Clicking register button
+2024-07-05 15:56:45.807 [main] INFO  pagesOfNopCommerce.LoginPage - Entering email: mahossain3094@gmail.com
+2024-07-05 15:56:46.164 [main] INFO  pagesOfNopCommerce.LoginPage - Entering password
+2024-07-05 15:56:46.731 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking login button
+2024-07-05 16:12:32.636 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting gender: Male
+2024-07-05 16:12:33.969 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering first name: MD
+2024-07-05 16:12:35.077 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering last name: Hossain
+2024-07-05 16:12:35.508 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting date of birth: 1/June/1987
+2024-07-05 16:12:36.603 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering email: mahossain3094@gmail.com
+2024-07-05 16:12:36.696 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering password
+2024-07-05 16:12:37.116 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering confirm password
+2024-07-05 16:12:37.418 [main] INFO  pagesOfNopCommerce.RegisterPage - Clicking register button
+2024-07-05 16:12:42.244 [main] INFO  pagesOfNopCommerce.LoginPage - Entering email: mahossain3094@gmail.com
+2024-07-05 16:12:42.357 [main] INFO  pagesOfNopCommerce.LoginPage - Entering password
+2024-07-05 16:12:42.936 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking login button
+2024-07-05 16:20:43.554 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting gender: Male
+2024-07-05 16:20:44.934 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering first name: MD
+2024-07-05 16:20:45.999 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering last name: Hossain
+2024-07-05 16:20:46.518 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting date of birth: 1/June/1987
+2024-07-05 16:20:47.649 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering email: mahossain3094@gmail.com
+2024-07-05 16:20:47.737 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering password
+2024-07-05 16:20:48.160 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering confirm password
+2024-07-05 16:20:48.486 [main] INFO  pagesOfNopCommerce.RegisterPage - Clicking register button
+2024-07-05 16:20:53.258 [main] INFO  pagesOfNopCommerce.LoginPage - Entering email: mahossain3094@gmail.com
+2024-07-05 16:20:53.393 [main] INFO  pagesOfNopCommerce.LoginPage - Entering password
+2024-07-05 16:20:53.801 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking remember me button
+2024-07-05 16:20:54.148 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking login button
+2024-07-05 16:22:27.369 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting gender: Male
+2024-07-05 16:22:28.519 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering first name: MD
+2024-07-05 16:22:29.743 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering last name: Hossain
+2024-07-05 16:22:30.326 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting date of birth: 1/June/1987
+2024-07-05 16:22:31.411 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering email: mahossain3094@gmail.com
+2024-07-05 16:22:31.500 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering password
+2024-07-05 16:22:31.874 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering confirm password
+2024-07-05 16:22:32.165 [main] INFO  pagesOfNopCommerce.RegisterPage - Clicking register button
+2024-07-05 16:22:36.501 [main] INFO  pagesOfNopCommerce.LoginPage - Entering email: mahossain3094@gmail.com
+2024-07-05 16:22:36.602 [main] INFO  pagesOfNopCommerce.LoginPage - Entering password
+2024-07-05 16:22:37.031 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking remember me button
+2024-07-05 16:22:37.388 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking login button
+2024-07-05 16:41:18.154 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting gender: Male
+2024-07-05 16:41:19.448 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering first name: MD
+2024-07-05 16:41:20.313 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering last name: Hossain
+2024-07-05 16:41:20.690 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting date of birth: 1/June/1987
+2024-07-05 16:41:21.738 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering email: mahossain3094@gmail.com
+2024-07-05 16:41:21.835 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering password
+2024-07-05 16:41:22.203 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering confirm password
+2024-07-05 16:41:22.489 [main] INFO  pagesOfNopCommerce.RegisterPage - Clicking register button
+2024-07-05 16:41:26.814 [main] INFO  pagesOfNopCommerce.LoginPage - Entering email: mahossain3094@gmail.com
+2024-07-05 16:41:27.088 [main] INFO  pagesOfNopCommerce.LoginPage - Entering password
+2024-07-05 16:41:27.539 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking remember me button
+2024-07-05 16:41:27.857 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking login button
+2024-07-05 17:12:25.441 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting gender: Male
+2024-07-05 17:12:26.518 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering first name: MD
+2024-07-05 17:12:27.484 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering last name: Hossain
+2024-07-05 17:12:27.851 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting date of birth: 1/June/1987
+2024-07-05 17:12:28.672 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering email: mahossain3094@gmail.com
+2024-07-05 17:12:28.899 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering password
+2024-07-05 17:12:29.091 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering confirm password
+2024-07-05 17:12:29.336 [main] INFO  pagesOfNopCommerce.RegisterPage - Clicking register button
+2024-07-05 17:12:33.232 [main] INFO  pagesOfNopCommerce.LoginPage - Entering email: mahossain3094@gmail.com
+2024-07-05 17:12:33.315 [main] INFO  pagesOfNopCommerce.LoginPage - Entering password
+2024-07-05 17:12:33.597 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking remember me button
+2024-07-05 17:12:33.873 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking login button
+2024-07-05 17:15:50.614 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting gender: Male
+2024-07-05 17:15:51.801 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering first name: MD
+2024-07-05 17:15:52.595 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering last name: Hossain
+2024-07-05 17:15:52.930 [main] INFO  pagesOfNopCommerce.RegisterPage - Selecting date of birth: 1/June/1987
+2024-07-05 17:15:53.717 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering email: mahossain3094@gmail.com
+2024-07-05 17:15:53.788 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering password
+2024-07-05 17:15:54.097 [main] INFO  pagesOfNopCommerce.RegisterPage - Entering confirm password
+2024-07-05 17:15:54.345 [main] INFO  pagesOfNopCommerce.RegisterPage - Clicking register button
+2024-07-05 17:15:58.863 [main] INFO  pagesOfNopCommerce.LoginPage - Entering email: mahossain3094@gmail.com
+2024-07-05 17:15:58.959 [main] INFO  pagesOfNopCommerce.LoginPage - Entering password
+2024-07-05 17:15:59.418 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking remember me button
+2024-07-05 17:15:59.712 [main] INFO  pagesOfNopCommerce.LoginPage - Clicking login button
