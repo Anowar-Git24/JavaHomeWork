@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-29T13:36:30 EDT" name="Default suite" finished-at="2024-06-29T13:37:06 EDT" duration-ms="35782">
+  <suite started-at="2024-07-13T11:29:22 EDT" name="Default suite" finished-at="2024-07-13T11:29:56 EDT" duration-ms="34308">
     <groups>
     </groups>
-    <test started-at="2024-06-29T13:36:30 EDT" name="Default test" finished-at="2024-06-29T13:37:06 EDT" duration-ms="35782">
+    <test started-at="2024-07-13T11:29:22 EDT" name="Default test" finished-at="2024-07-13T11:29:56 EDT" duration-ms="34308">
       <class name="facebookpagelogintest.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:facebookpagelogintest.LoginTest@4b3c354a]" started-at="2024-06-29T13:36:30 EDT" name="setUp" finished-at="2024-06-29T13:36:43 EDT" duration-ms="13014" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:facebookpagelogintest.LoginTest@c1bd0be]" started-at="2024-07-13T11:29:22 EDT" name="setUp" finished-at="2024-07-13T11:29:36 EDT" duration-ms="14170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithScreenshots()[pri:0, instance:facebookpagelogintest.LoginTest@4b3c354a]" started-at="2024-06-29T13:36:43 EDT" name="testLoginWithScreenshots" finished-at="2024-06-29T13:37:06 EDT" duration-ms="22635" status="PASS">
+        <test-method signature="testLoginWithScreenshots()[pri:0, instance:facebookpagelogintest.LoginTest@c1bd0be]" started-at="2024-07-13T11:29:36 EDT" name="testLoginWithScreenshots" finished-at="2024-07-13T11:29:56 EDT" duration-ms="19997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithScreenshots -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:facebookpagelogintest.LoginTest@4b3c354a]" started-at="2024-06-29T13:37:06 EDT" name="tearDown" finished-at="2024-06-29T13:37:06 EDT" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:facebookpagelogintest.LoginTest@c1bd0be]" started-at="2024-07-13T11:29:56 EDT" name="tearDown" finished-at="2024-07-13T11:29:56 EDT" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
