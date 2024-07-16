@@ -1,53 +1,49 @@
 package stepsdefinitions;
 
-import org.openqa.selenium.WebDriver;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
+import io.cucumber.java.en.Then;
 import myhooks.Hook;
+import org.openqa.selenium.WebDriver;
 import pom.LoginPage;
 
 public class ValidLoginSteps {
-	 WebDriver driver;
-	    LoginPage login;
-	    
-	    public void ValidLogin() {
-	        this.driver = Hook.driver;
-	        this.login = new LoginPage(driver);
-	    }
-   @Given("the user clicks on the login tab")
-	public void the_user_clicks_on_the_login_tab() {
-	   login.clickloginTab();
-   }
-    @Given("the user is on the login page {string}")
-    public void the_user_is_on_the_login_page(String loginpageurl) {
-    	driver.get(loginpageurl); 
+
+    private WebDriver driver;
+    private LoginPage loginPage;
+
+    public ValidLoginSteps() {
+        this.driver = Hook.getDriver();
+        this.loginPage = new LoginPage(driver);
     }
 
-    @Given("the user enters a valid username {string}")
-    public void the_user_enters_a_valid_username(String user) {
-    	login.enterEmail(user);
-       
+   // @Given("the user clicks on the login tab")
+   // public void the_user_clicks_on_the_login_tab() {
+    //    loginPage.clickloginTab();
+   // }
+
+    @When("the user is on the login page {string}")
+    public void the_user_is_on_the_login_page(String url) {
+        driver.get(url);
     }
 
-    @Given("the user enters a valid password {string}")
-    public void the_user_enters_a_valid_password(String pass) {
-    	login.enterPassword(pass);
-    	
+    @When("the user enters a valid username {string}")
+    public void the_user_enters_a_valid_username(String username) {
+        loginPage.enterEmail(username);
     }
-    
+
+    @When("the user enters a valid password {string}")
+    public void the_user_enters_a_valid_password(String password) {
+        loginPage.enterPassword(password);
+    }
+
     @When("the user clicks the remember button")
     public void the_user_clicks_the_remember_button() {
-    	login.clickremembermeButton();
+        loginPage.clickremembermeButton();
     }
 
-    @Given("the user clicks the log in button")
+    @Then("the user clicks the log in button")
     public void the_user_clicks_the_log_in_button() {
-    	login.clickloginnButton();
-    	
+        loginPage.clickloginnButton();
     }
-
-
-
-
 }

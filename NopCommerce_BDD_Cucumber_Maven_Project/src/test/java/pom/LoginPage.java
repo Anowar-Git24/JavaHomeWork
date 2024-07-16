@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import base.Reusablefunctions;
 import myhooks.Hook;
 
 public class LoginPage {
@@ -14,8 +16,8 @@ public class LoginPage {
         PageFactory.initElements(driver, this);
     }
     
-    @FindBy(xpath="/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[2]")
-    WebElement logintab;
+   // @FindBy(xpath="//a[@href='/login?returnUrl=%2F']")
+    //WebElement logintab;
     
     @FindBy(id="Email")
     WebElement username;
@@ -24,14 +26,14 @@ public class LoginPage {
     WebElement password;
     
     @FindBy(xpath="//*[@id=\"RememberMe\"]")
-    WebElement rememberme;
+    WebElement remembermeButton;
     
     @FindBy(xpath="//button[@class = 'button-1 login-button']")
     WebElement loginButton;
     
-    public void clickloginTab() {
-    	logintab.click();
-    }
+   // public void clickloginTab() {
+    //	Reusablefunctions.click(logintab);
+   // }
     
     public void enterEmail(String user) {
         username.sendKeys(user);
@@ -42,11 +44,11 @@ public class LoginPage {
     }
     
     public void clickremembermeButton() {
-    	rememberme.click();
+    	Reusablefunctions.click(remembermeButton);;
     }
     
     public void clickloginnButton() {
-        loginButton.click();
+    	Reusablefunctions.click(loginButton);
+	}
     }
 
-}

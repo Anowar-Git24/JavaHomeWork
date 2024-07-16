@@ -1,47 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-12T05:10:06 EDT" name="Default suite" finished-at="2024-07-12T05:10:06 EDT" duration-ms="196">
+  <suite started-at="2024-07-14T01:13:41 EDT" name="Default suite" finished-at="2024-07-14T01:13:48 EDT" duration-ms="6953">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Runner@130c12b7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.CucumberTestRunners@1ca3b418]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-07-12T05:10:06 EDT" name="Default test" finished-at="2024-07-12T05:10:06 EDT" duration-ms="196">
-      <class name="testrunner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.Runner@130c12b7]" started-at="2024-07-12T05:10:06 EDT" name="setUpClass" finished-at="2024-07-12T05:10:06 EDT" duration-ms="155" status="FAIL">
+    <test started-at="2024-07-14T01:13:41 EDT" name="Default test" finished-at="2024-07-14T01:13:48 EDT" duration-ms="6953">
+      <class name="testrunner.CucumberTestRunners">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.CucumberTestRunners@1ca3b418]" started-at="2024-07-14T01:13:41 EDT" name="setUpClass" finished-at="2024-07-14T01:13:41 EDT" duration-ms="634" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4fbe37eb]]>
+                <![CDATA[org.testng.TestRunner@21e20ad5]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalArgumentException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.CucumberTestRunners@1ca3b418]" started-at="2024-07-14T01:13:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-14T01:13:48 EDT" duration-ms="6266" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
             <message>
-              <![CDATA[path must exist: /Users/mdhossain/git/JavaHomeWork/NopCommerce_BDD_Cucumber_Maven_Project/src\test\resources\Features]]>
+              <![CDATA[The step 'the user is on the login page "https://demo.nopcommerce.com/login?returnUrl=%2F"' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user is on the login page {string}")
+public void the_user_is_on_the_login_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user enters a valid username {string}")
+public void the_user_enters_a_valid_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user enters a valid password {string}")
+public void the_user_enters_a_valid_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks the remember button")
+public void the_user_clicks_the_remember_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the user clicks the log in button")
+public void the_user_clicks_the_log_in_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: path must exist: /Users/mdhossain/git/JavaHomeWork/NopCommerce_BDD_Cucumber_Maven_Project/src\test\resources\Features
-at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:49)
-at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
-at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
-at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
-at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
-at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
-at io.cucumber.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:122)
-at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'the user is on the login page "https://demo.nopcommerce.com/login?returnUrl=%2F"' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user is on the login page {string}")
+public void the_user_is_on_the_login_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user enters a valid username {string}")
+public void the_user_enters_a_valid_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user enters a valid password {string}")
+public void the_user_enters_a_valid_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks the remember button")
+public void the_user_clicks_the_remember_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the user clicks the log in button")
+public void the_user_clicks_the_log_in_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
@@ -60,15 +134,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.Runner@130c12b7]" started-at="2024-07-12T05:10:06 EDT" name="tearDownClass" finished-at="2024-07-12T05:10:06 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.CucumberTestRunners@1ca3b418]" started-at="2024-07-14T01:13:48 EDT" name="tearDownClass" finished-at="2024-07-14T01:13:48 EDT" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- testrunner.Runner -->
+      </class> <!-- testrunner.CucumberTestRunners -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

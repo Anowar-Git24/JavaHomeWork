@@ -1,27 +1,18 @@
 package utilities;
 
-import java.time.Duration;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import io.cucumber.java.Before;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 
 public class PropertyFilereader {
-    public static WebDriver driver;
-    PropertyFilereader prop = new PropertyFilereader();
 
-    @Before
-    public void setUp() {
-        System.setProperty("webdriver.chrome.driver", PropertyFilereader.getPropertyValue("driver.path"));
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get(PropertyFilereader.getPropertyValue("url"));
-    }
+	public static String getPropertyValue(String key) throws IOException {
+		String temp = System.getProperty("user.dir");
+		FileInputStream fis = new FileInputStream(temp + "/NopCommerce_BDD_Cucumber_Maven_Project/src/test/resources/config/configeration.properties");
+		Properties prop = new Properties();
+		prop.load(fis);
+		return prop.getProperty(key);
 
-	public static String getPropertyValue(String string) {
-		// TODO Auto-generated method stub
-		return null;
 	}
+
 }
