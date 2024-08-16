@@ -37,8 +37,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry exported="true" kind="src" path="/TestNgFrameWorkDemo"/>
-	<classpathentry exported="true" kind="src" path="/PageObjectModel_DesignPattern"/>
+	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="src" path="/TestNgFrameWorkDemo"/>
+	<classpathentry kind="src" path="/PageObjectModel_DesignPattern"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
