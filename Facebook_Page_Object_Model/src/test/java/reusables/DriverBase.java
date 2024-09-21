@@ -12,7 +12,7 @@ public class DriverBase {
     static final String CHROME_DRIVER = "webdriver.chrome.driver";
     static final String FIREFOX_DRIVER = "webdriver.gecko.driver";
     static final String SAFARI_DRIVER = "webdriver.safari.driver";
-    private static final Logger logger = LogManager.getLogger(testingBase.class);
+    private static final Logger logger = LogManager.getLogger(DriverBase.class);
     private WebDriver driver;
 
     @Parameters({"browser", "url"})
