@@ -1,4 +1,5 @@
 package restassured;
+
 import static io.restassured.RestAssured.get;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasItem;
@@ -12,7 +13,7 @@ public class Example2 {
                .then()
                .statusCode(200)
                .body("data[1].id", equalTo(8))
-               .body("data.first_name", hasItem("lindsay"));
+               .body("data.first_name", hasItem("Lindsay"));
 
     }
 }
