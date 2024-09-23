@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="restassured.Example1" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="restassured.Put_Patch_Delete_Examples" class="method navigator-link" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="restassured.Put_Patch_Delete_Examples" class="method navigator-link" hash-for-method="testPatch">testPatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="restassured.Put_Patch_Delete_Examples" class="method navigator-link" hash-for-method="testPut">testPut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,14 +131,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">restassured.Example1</span>
+              <span class="class-name">restassured.Put_Patch_Delete_Examples</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test1">
-                  </a> <!-- test1 -->
-                  <span class="method-name">test1</span>
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPatch">
+                  </a> <!-- testPatch -->
+                  <span class="method-name">testPatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPut">
+                  </a> <!-- testPut -->
+                  <span class="method-name">testPut</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +160,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/z8/vpp41zfj3c37gd40tg2lp2b80000gn/T/testng-eclipse--156886154/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/z8/vpp41zfj3c37gd40tg2lp2b80000gn/T/testng-eclipse-615393193/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +169,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;restassured.Example1&quot;/&gt;
+      &lt;class name=&quot;restassured.Put_Patch_Delete_Examples&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -185,16 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test1')
-data.setCell(0, 2, 'restassured.Example1')
-data.setCell(0, 3, 2378);
+data.setCell(0, 1, 'testDelete')
+data.setCell(0, 2, 'restassured.Put_Patch_Delete_Examples')
+data.setCell(0, 3, 2658);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testPatch')
+data.setCell(1, 2, 'restassured.Put_Patch_Delete_Examples')
+data.setCell(1, 3, 1521);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testPut')
+data.setCell(2, 2, 'restassured.Put_Patch_Delete_Examples')
+data.setCell(2, 3, 546);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -220,10 +252,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">restassured.Example1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">restassured.Put_Patch_Delete_Examples</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test1</span>
+                <span class="method-name">testDelete</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPatch</span>
+                <span class="method-start">2673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPut</span>
+                <span class="method-start">4206 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
