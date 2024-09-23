@@ -1,5 +1,6 @@
 package restassured;
 
+import org.testng.annotations.Test;
 import static io.restassured.RestAssured.get;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasItem;

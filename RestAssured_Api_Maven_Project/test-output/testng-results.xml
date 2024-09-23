@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-22T22:11:13 EDT" name="Default suite" finished-at="2024-09-22T22:11:18 EDT" duration-ms="4807">
+  <suite started-at="2024-09-22T22:58:33 EDT" name="Default suite" finished-at="2024-09-22T22:58:37 EDT" duration-ms="4618">
     <groups>
     </groups>
-    <test started-at="2024-09-22T22:11:13 EDT" name="Default test" finished-at="2024-09-22T22:11:18 EDT" duration-ms="4807">
+    <test started-at="2024-09-22T22:58:33 EDT" name="Default test" finished-at="2024-09-22T22:58:37 EDT" duration-ms="4618">
       <class name="restassured.Put_Patch_Delete_Examples">
-        <test-method signature="testDelete()[pri:0, instance:restassured.Put_Patch_Delete_Examples@792b749c]" started-at="2024-09-22T22:11:13 EDT" name="testDelete" finished-at="2024-09-22T22:11:16 EDT" duration-ms="2658" status="PASS">
+        <test-method signature="testDelete()[pri:0, instance:restassured.Put_Patch_Delete_Examples@792b749c]" started-at="2024-09-22T22:58:33 EDT" name="testDelete" finished-at="2024-09-22T22:58:35 EDT" duration-ms="2507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelete -->
-        <test-method signature="testPatch()[pri:0, instance:restassured.Put_Patch_Delete_Examples@792b749c]" started-at="2024-09-22T22:11:16 EDT" name="testPatch" finished-at="2024-09-22T22:11:17 EDT" duration-ms="1521" status="PASS">
+        <test-method signature="testPatch()[pri:0, instance:restassured.Put_Patch_Delete_Examples@792b749c]" started-at="2024-09-22T22:58:35 EDT" name="testPatch" finished-at="2024-09-22T22:58:37 EDT" duration-ms="1479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPatch -->
-        <test-method signature="testPut()[pri:0, instance:restassured.Put_Patch_Delete_Examples@792b749c]" started-at="2024-09-22T22:11:18 EDT" name="testPut" finished-at="2024-09-22T22:11:18 EDT" duration-ms="546" status="PASS">
+        <test-method signature="testPut()[pri:0, instance:restassured.Put_Patch_Delete_Examples@792b749c]" started-at="2024-09-22T22:58:37 EDT" name="testPut" finished-at="2024-09-22T22:58:37 EDT" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPut -->

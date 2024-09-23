@@ -88,7 +88,6 @@
     </dependency>
 
     <!-- REST Assured -->
-    <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 <dependency>
     <groupId>io.rest-assured</groupId>
     <artifactId>rest-assured</artifactId>
@@ -96,7 +95,7 @@
     <scope>test</scope>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.json/json -->
+ <!-- JSON -->
 <dependency>
     <groupId>org.json</groupId>
     <artifactId>json</artifactId>
@@ -181,15 +180,15 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.13.0</version>
         </plugin>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.3.0</version>
-          <configuration>
-            <includes>
-              <include>**/*Test.java</include>
-            </includes>
-          </configuration>
-        </plugin>
+       <plugin>
+  <artifactId>maven-surefire-plugin</artifactId>
+  <version>3.3.0</version>
+  <configuration>
+    <suiteXmlFiles>
+      <suiteXmlFile>testng.xml</suiteXmlFile>
+    </suiteXmlFiles>
+  </configuration>
+</plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.4.2</version>

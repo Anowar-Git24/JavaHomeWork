@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restassured.Example2">
+      <class name="restassured.Put_Patch_Delete_Examples">
         <methods>
-          <include name="test2"/>
+          <include name="testDelete"/>
+          <include name="createUser"/>
+          <include name="testPatch"/>
+          <include name="testPut"/>
         </methods>
-      </class> <!-- restassured.Example2 -->
+      </class> <!-- restassured.Put_Patch_Delete_Examples -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

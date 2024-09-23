@@ -1,4 +1,6 @@
 package restassured;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;
@@ -17,6 +19,6 @@ public class Example1 {
         System.out.println(response.getTime());
 
         int statusCode = response.getStatusCode();
-        Assert.assertEquals(statusCode, 200);
+        AssertJUnit.assertEquals(statusCode, 200);
     }
 }
